@@ -1,0 +1,17 @@
+.container-item {
+    margin-bottom: 1rem;
+}
+.container-item:last-child {
+    margin-bottom: 0;
+}
+.rk-portfolio-cover {
+    background-size: cover;
+}
+.rk-portfolio-title {
+    color: #1b1b1b;
+}
+.rk-portfolio-category {
+    color: #1b1b1b;
+    font-weight: 700;
+    font-size: 26px;
+}

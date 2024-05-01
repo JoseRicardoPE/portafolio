@@ -22,7 +22,11 @@ export class ProductsService {
 
       setTimeout(() => {
         this.loaded = false;
-      },1000)
+      },2000)
     });
+  }
+
+  getProduct(id: string) {
+    return this.http.get(`https://angular-practica-portafolio-default-rtdb.firebaseio.com/productos/${ id }.json`);
   }
 }
